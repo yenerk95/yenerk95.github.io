@@ -1,17 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2021-04-11 00:38:21 +0200
+title:  "Follow the Money"
+date:   2021-04-12 01:26:21 +0200
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
+
+<iframe src="/assets/graphdesc.html" sandbox="allow-same-origin allow-scripts" width="100%" height="500" scrolling="no" seamless="seamless" frameborder="0"> </iframe>
 Jekyll requires blog post files to be named according to the following format:
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+<iframe src="/assets/graphind.html"
+sandbox="allow-same-origin allow-scripts"
+width="80%"
+height="500"
+scrolling="no"
+seamless="seamless"
+frameborder="0">
+</iframe>
 
 Jekyll also offers powerful support for code snippets:
 

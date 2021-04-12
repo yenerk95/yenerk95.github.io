@@ -4,9 +4,9 @@ title:  "Follow the Money"
 date:   2021-04-12 01:26:21 +0200
 categories: jekyll update
 ---
-The goal of this project was to cluster the given company descriptions and the industry labels classify them by matching them with the target technologies and The Global Industry Classification Standard.
+The goal of this project was to cluster the given company descriptions and the industry labels and classify them by matching them with the target technologies and The Global Industry Classification Standard.
 
-For these tasks I used [Sentence-BERT](https://arxiv.org/pdf/1908.10084.pdf)
+For these tasks I used [pretrained sentence transformers](https://www.sbert.net/index.html) based on [Sentence-BERT](https://arxiv.org/pdf/1908.10084.pdf)
 
 Sentence-BERT finetunes a pre-trained BERT network using Siamese and triplet network structures and adds a pooling operation to the output of BERT to derive a fixed-sized sentence embedding vector. The produced embedding vector is more appropriate for sentence similarity comparisons within a vector space
 
@@ -16,11 +16,12 @@ Documents with similar topics are clustered together such that we can find the t
 
 Below you can see the visualizations of the embeddings of the given data.
 
-Company descriptions embedding:
+## Company descriptions embedding:
 
 <iframe src="/assets/graphdesc.html" sandbox="allow-same-origin allow-scripts" width="100%" height="500" scrolling="no" seamless="seamless" frameborder="0"> </iframe>
 
-Industry labes embedding:
+## Industry labes embedding:
+
 <iframe src="/assets/graphind.html"
 sandbox="allow-same-origin allow-scripts"
 width="100%"

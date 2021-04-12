@@ -16,11 +16,11 @@ Documents with similar topics are clustered together such that we can find the t
 
 Below you can see the visualizations of the embeddings of the given data.
 
-## Company descriptions embedding:
+## Company descriptions embedding:
 
 <iframe src="/assets/graphdesc.html" sandbox="allow-same-origin allow-scripts" width="100%" height="500" scrolling="no" seamless="seamless" frameborder="0"> </iframe>
 
-## Industry labes embedding:
+## Industry labes embedding:
 
 <iframe src="/assets/graphind.html"
 sandbox="allow-same-origin allow-scripts"

@@ -16,12 +16,20 @@ Documents with similar topics are clustered together such that we can find the t
 
 Below you can see the visualizations of the embeddings of the given data.
 
-### Company descriptions embedding:
+### Acquisitions, Company descriptions embedding:
 
 {% include /graphdesc.html %}
 
-### Industry labes embedding:
+### Acquisitions, Industry labels embedding:
 
 {% include /graphind.html %}
+
+### Companies, Company descriptions embedding:
+
+{% include /graphcompanydesc.html %}
+
+### Companies, Industry labels embedding:
+
+{% include /graphcompanyind.html %}
 
 

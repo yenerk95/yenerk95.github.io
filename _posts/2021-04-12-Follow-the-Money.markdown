@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 The goal of this project was to cluster the given company descriptions and the industry labels classify them by matching them with the target technologies and The Global Industry Classification Standard.
 
-For these tasks I used [Sentence-BERT]: (https://arxiv.org/pdf/1908.10084.pdf)
+For these tasks I used [Sentence-BERT]: [[https://arxiv.org/pdf/1908.10084.pdf]]
 
 Sentence-BERT finetunes a pre-trained BERT network using Siamese and triplet network structures and adds a pooling operation to the output of BERT to derive a fixed-sized sentence embedding vector. The produced embedding vector is more appropriate for sentence similarity comparisons within a vector space
 

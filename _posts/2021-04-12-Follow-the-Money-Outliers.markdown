@@ -18,7 +18,13 @@ Below you can see the visualizations.
 
 {% include /graphoutlierind.html %}
 
+### Companies Outliers, Company descriptions embedding:
 
+{% include /graphoutliercompanydesc.html %}
+
+### Companies Outliers, Industry labels embedding:
+
+{% include /graphoutliercompanyind.html %}
 
 ## Topic Creation
 ### Class-based variant of TF-IDF (c-TF-IDF)

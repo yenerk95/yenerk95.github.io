@@ -15,20 +15,21 @@ I got the BERT encodings for each sentence in the corpus and then did a semantic
 Documents with similar topics are clustered together such that we can find the topics within these clusters. To visualize the simiilarities, I had to lower the dimensionality of the embeddings. I used [UMAP](https://umap-learn.readthedocs.io/en/latest/index.html) to reduce the dimensionality as it keeps a significant portion of the high-dimensional local structure in lower dimensionality. After having reduced the dimensionality of the embeddings, I  clustered them with [HDBSCAN](https://hdbscan.readthedocs.io/en/latest/index.html).
 
 Below you can see the visualizations of the embeddings of the given data.
-
-### Acquisitions, Company descriptions embedding:
+## Acquisitions
+### Company descriptions embeddings:
 
 {% include /graphdesc.html %}
 
-### Acquisitions, Industry labels embedding:
+### Industry labels embedding:
 
 {% include /graphind.html %}
 
-### Companies, Company descriptions embedding:
+## Companies Funded
+### Company descriptions embeddings:
 
 {% include /graphcompanydesc.html %}
 
-### Companies, Industry labels embedding:
+### Industry labels embedding:
 
 {% include /graphcompanyind.html %}
 

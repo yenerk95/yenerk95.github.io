@@ -9,32 +9,37 @@ The aim of this project was to cluster the given company descriptions and  indus
 After completing the classification process, we wanted to further examine the outliers by clustering them to see if there are more clusters of interesting technologies that we have missed.
 
 Below you can see the visualizations.
-
-### Acquisitions Outliers, Company descriptions embedding:
+## Acquisitions Outliers
+### Company descriptions embeddings:
 
 {% include /graphoutlierdesc.html %}
 
+### Topic Creation
+#### Class-based variant of TF-IDF (c-TF-IDF)
+[BERTopic](https://github.com/MaartenGr/BERTopic) methodology is used. Treated all documents in a single category (a cluster) as a single document and then applied TF-IDF.
+Took the top 10 most important words in each cluster. Took the top 50 clusters.
 {% include /tabledesc.html %}
 
-### Acquisitions Outliers, Industry labels embedding:
+### Industry labels embedding:
 
 {% include /graphoutlierind.html %}
 
-### Companies Outliers, Company descriptions embedding:
+## Companies Funded Outliers
+### Company descriptions embeddings:
 
 {% include /graphoutliercompanydesc.html %}
 
+### Topic Creation
+#### Class-based variant of TF-IDF (c-TF-IDF)
+[BERTopic](https://github.com/MaartenGr/BERTopic) methodology is used. Treated all documents in a single category (a cluster) as a single document and then applied TF-IDF.
+Took the top 10 most important words in each cluster. Took the top 50 clusters.
 {% include /tablecompanydesc.html %}
 
-### Companies Outliers, Industry labels embedding:
+### Industry labels embeddings:
 
 {% include /graphoutliercompanyind.html %}
 
-## Topic Creation
-### Class-based variant of TF-IDF (c-TF-IDF)
-Treat all documents in a single category (a cluster) as a single document and then apply TF-IDF.
 
-Take the top 10 most important words in each cluster
 
 
 

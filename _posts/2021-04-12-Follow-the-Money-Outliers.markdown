@@ -14,6 +14,8 @@ Below you can see the visualizations.
 
 {% include /graphoutlierdesc.html %}
 
+{% include /tabledesc.html %}
+
 ### Acquisitions Outliers, Industry labels embedding:
 
 {% include /graphoutlierind.html %}
@@ -21,6 +23,8 @@ Below you can see the visualizations.
 ### Companies Outliers, Company descriptions embedding:
 
 {% include /graphoutliercompanydesc.html %}
+
+{% include /tablecompanydesc.html %}
 
 ### Companies Outliers, Industry labels embedding:
 

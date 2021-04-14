@@ -32,7 +32,7 @@ Below you can see the visualizations and tables.
 ## Companies Funded Outliers
 ### Company descriptions embeddings:
 
-{% include /graphoutliercompanydesc_updated.html %}
+{% include /graphoutliercompanydesc.html %}
 
 ### Cluster Summaries
 

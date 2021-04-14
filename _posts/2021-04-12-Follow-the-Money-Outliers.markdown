@@ -4,40 +4,47 @@ title:  "Follow the Money Outliers"
 date:   2021-04-12 12:43:21 +0200
 categories: jekyll update
 ---
-The aim of this project was to cluster the given company descriptions and  industry labels and classify them by matching them with target technologies and The Global Industry Classification Standard.
+The aim of this project was to cluster the given company descriptions an industry labels and classify them by matching them with target technologies and The Global Industry Classification Standard.
 
 After completing the classification process, we wanted to further examine the outliers by clustering them to see if there are more clusters of interesting technologies that we have missed.
 
-Below you can see the visualizations.
+To create cluster summaries, class-based variant of TF-IDF (c-TF-IDF) [BERTopic](https://github.com/MaartenGr/BERTopic) methodology is used. Treated all documents in a single category (a cluster) as a single document and then applied TF-IDF.
+Took the top 10 most important words in each cluster. 
+
+Below you can see the visualizations and tables.
 ## Acquisitions Outliers
 ### Company descriptions embeddings:
 
-{% include /graphoutlierdesc.html %}
+{% include /graphoutlierdesc_updated.html %}
 
-### Topic Creation
-#### Class-based variant of TF-IDF (c-TF-IDF)
-[BERTopic](https://github.com/MaartenGr/BERTopic) methodology is used. Treated all documents in a single category (a cluster) as a single document and then applied TF-IDF.
-Took the top 10 most important words in each cluster. Took the top 50 clusters.
-{% include /tabledesc.html %}
+### Cluster Summaries
 
-### Industry labels embedding:
+{% include /tabledesc_updated.html %}
 
-{% include /graphoutlierind.html %}
+### Industry labels embeddings:
+
+{% include /graphoutlierind_updated.html %}
+
+### Cluster Summaries
+
+{% include /tableind_updated.html %}
 
 ## Companies Funded Outliers
 ### Company descriptions embeddings:
 
-{% include /graphoutliercompanydesc.html %}
+{% include /graphoutliercompanydesc_updated.html %}
 
-### Topic Creation
-#### Class-based variant of TF-IDF (c-TF-IDF)
-[BERTopic](https://github.com/MaartenGr/BERTopic) methodology is used. Treated all documents in a single category (a cluster) as a single document and then applied TF-IDF.
-Took the top 10 most important words in each cluster. Took the top 50 clusters.
-{% include /tablecompanydesc.html %}
+### Cluster Summaries
+
+{% include /tablecompanydesc_updated.html %}
 
 ### Industry labels embeddings:
 
-{% include /graphoutliercompanyind.html %}
+{% include /graphoutliercompanyind_updated.html %}
+
+### Cluster Summaries
+
+{% include /tablecompanyind_updated.html %}
 
 
 

@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Follow the Money Outliers"
+date:   2021-06-10 12:43:21 +0200
+categories: jekyll update
+---
+The aim of this project was clustering given coin descriptions 
+
+To create cluster summaries, class-based variant of TF-IDF (c-TF-IDF) [BERTopic](https://github.com/MaartenGr/BERTopic) methodology is used. Treated all documents in a single category (a cluster) as a single document and then applied TF-IDF.
+Took the top 10 most important words in each cluster. 
+
+Below you can see the visualizations and tables.
+
+### Coins embeddings:
+
+{% include /graphoutlierdesc_defi_all.html %}
+
+### Cluster Summaries
+
+{% include /tabledesc_defi_all.html %}
+
+
+### DEFI embeddings:
+
+{% include /grapdefi_desc.html %}
+
+### Cluster Summaries
+
+{% include /tabledesc_defi.html %}
+
+
+
+
+
